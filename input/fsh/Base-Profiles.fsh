@@ -5,7 +5,7 @@ Profile:        NdhEndpoint
 Parent:         Endpoint
 Id:             ndh-Endpoint
 Title:          "NDH Endpoint Profile"
-Description:    "This profile enables NDH to publish trusted, implementation-ready technical endpoints so directory consumers can reliably discover, evaluate, and connect to electronic exchange services including APIs and messaging; it adds endpoint-focused extensions for trust, registration, access control, testing, and environment context, and applies ValueSet bindings that standardize connection type, payload type, and MIME-type semantics."
+Description:    "This profile enables NDH to publish implementation-ready technical endpoints so directory consumers can reliably discover, evaluate, and connect to electronic exchange services including APIs and messaging; it adds endpoint-focused extensions for supported implementation guides, associated servers, endpoint rank, IHE-specific connection type, verification status, and environment context, and applies ValueSet bindings that standardize connection type, payload type, and MIME-type semantics."
 * meta.lastUpdated 1..1
 * extension contains 
     ImplementationGuideSupported named implementation-guide 0..* and
